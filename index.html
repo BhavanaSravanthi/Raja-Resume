@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raja Paladugu | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="container">
+      <div class="left-pane">
+        <img src="raja.png" alt="Raja Paladugu" />
+      </div>
+      <div class="right-pane">
+        <div class="content">
+          <div class="top-bar">
+            <div class="info">
+              <h1>Raja Paladugu</h1>
+              <h2>Traction Power Expert</h2>
+              <p class="location">📍 Doha Metro & Lusail Tram</p>
+            </div>
+            <nav class="tabs">
+              <button class="tab active" onclick="showTab('overview')">
+                Overview
+              </button>
+              <button class="tab" onclick="showTab('experience')">
+                Experience
+              </button>
+              <button class="tab" onclick="showTab('education')">
+                Education
+              </button>
+              <button class="tab" onclick="showTab('contact')">Contact</button>
+            </nav>
+          </div>
+
+          <div id="tab-content">
+            <div class="tab-pane" id="overview">
+              <h3>Professional Summary</h3>
+              <p>
+                Over 15 years of multidisciplinary
+                <strong>experience</strong> in rail systems, with expertise in
+                <strong>Power Supply</strong> and <strong>Traction</strong> for
+                metro and railway infrastructure across Qatar and India.
+              </p>
+            </div>
+            <div class="tab-pane hidden" id="experience">
+              <h3>Experience</h3>
+              <ul>
+                <li>RKH Qitarat – Traction Power Expert (Current)</li>
+                <li>Lusail Tram Project – Power Supply Systems</li>
+                <li>Qatar Rail – System Integration & Commissioning</li>
+              </ul>
+            </div>
+            <div class="tab-pane hidden" id="education">
+              <h3>Education</h3>
+              <p>
+                B.Tech in Electrical Engineering<br />Certifications in Railway
+                Electrification
+              </p>
+            </div>
+            <div class="tab-pane hidden" id="contact">
+              <h3>Contact</h3>
+              <p>Email: raja@example.com<br />Phone: +974-XXXX-XXXX</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
